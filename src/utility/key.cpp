@@ -1,5 +1,7 @@
 #include "key.h"
 
+#include "Arduino.h"
+
 Key::Key()
 {
   // Use default constructor with null character.

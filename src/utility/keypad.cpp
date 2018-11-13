@@ -23,13 +23,13 @@ Keypad::Keypad(byte NRows, byte NCols, char Characters[], byte RowPins[], byte C
     pinMode(Keypad::mColPins[c], INPUT_PULLUP);
   }
   // Create the 2D array of keys.
-  Keypad::mKeys = new Keypad::Key*[NRows];
+  Keypad::mKeys = new Key*[NRows];
   for(int r = 0; r < NRows; r++)
   {
-    Keypad::mKeys[r] = new Keypad::Key[NCols];
+    Keypad::mKeys[r] = new Key[NCols];
     for(int c = 0; c < NCols; c++)
     {
-      Keypad::mKeys[r][c] = Keypad::Key(Characters[r*NCols+c]);
+      Keypad::mKeys[r][c] = Key(Characters[r*NCols+c]);
     }
   }
   // Set buffer to NULL.
