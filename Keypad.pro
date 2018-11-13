@@ -8,12 +8,11 @@ INCLUDEPATH += $$PWD\src
 
 HEADERS += \
     src/utility/key.h \
-    src/utility/keypad.h \
     src/Keypad.h
 
 SOURCES += \
     src/utility/key.cpp \
-    src/utility/keypad.cpp
+    src/Keypad.cpp
 
 DISTFILES += \
     library.properties \
