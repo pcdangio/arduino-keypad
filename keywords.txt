@@ -1,0 +1,18 @@
+# Animation::Step Class
+Step	KEYWORD3
+Pin	KEYWORD1
+State   KEYWORD1
+Duration	KEYWORD1
+
+# Animation::Script Class
+Script	KEYWORD3
+Spin	KEYWORD2
+Stop	KEYWORD2
+ID KEYWORD2
+
+# Animation::Animator Class
+Animator    KEYWORD3
+Spin
+AddScript
+StopScript
+StopAllScripts
