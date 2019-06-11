@@ -1,4 +1,4 @@
-#include "keypad.h"
+#include "Keypad.h"
 
 Keypad::Keypad(byte NRows, byte NCols, char Characters[], byte RowPins[], byte ColPins[])
 {
